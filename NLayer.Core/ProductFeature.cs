@@ -10,9 +10,9 @@ namespace NLayer.Core
     /// Product ve ProductFeature arasında 1e1 bir ilişki olacak ve zaten Product Base'den miras aldı
     /// Bu nedenle direkt olarak Product'dan miras aldırmamamız en doğrusu olacaktır. 
     /// </summary>
-    public class ProductFeature:Product
+    public class ProductFeature
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Color { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }

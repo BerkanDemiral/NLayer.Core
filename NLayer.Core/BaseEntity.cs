@@ -12,7 +12,7 @@ namespace NLayer.Core
     /// </summary>
     public abstract class BaseEntity
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ChangedDate { get; set; }
     }
