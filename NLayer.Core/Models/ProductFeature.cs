@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Core
+namespace NLayer.Core.Models
 {
     /// <summary>
     /// Product ve ProductFeature arasında 1e1 bir ilişki olacak ve zaten Product Base'den miras aldı

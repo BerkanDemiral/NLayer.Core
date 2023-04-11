@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Core
+namespace NLayer.Core.Models
 {
     public class Product : BaseEntity
     {
@@ -17,4 +17,3 @@ namespace NLayer.Core
         public ProductFeature ProductFeature { get; set; }
     }
 }
-  
