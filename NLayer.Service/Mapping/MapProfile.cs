@@ -16,6 +16,7 @@ namespace NLayer.Service.Mapping
             CreateMap<Product,ProductDto>().ReverseMap(); // we indicate that its convertible within each other 
             CreateMap<Category,CategoryDto>().ReverseMap(); // we indicate that its convertible within each other 
             CreateMap<ProductFeature,ProductFeatureDto>().ReverseMap(); // we indicate that its convertible within each other 
+            CreateMap<CategoryWithProductsDto,Category>().ReverseMap(); // we indicate that its convertible within each other 
         }
     }
 }

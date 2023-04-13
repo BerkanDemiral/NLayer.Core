@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace NLayer.Repository.Repositories
 {
-    public class GerenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         // I Specified readonly for Db Properties. Because i dont want set to properies other funcitons. I should only specify in constructor method.
 
         protected readonly AppDbContext _context;
         private readonly DbSet<T> _dbSet;
 
-        public GerenericRepository(AppDbContext context)
+        public GenericRepository(AppDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>(); 
